@@ -14,7 +14,7 @@ div{
     position: relative;
 
 }
-img{
+.bg{
     width: 320px;
     height: 95vh; 
     margin:auto; 
@@ -49,19 +49,21 @@ img{
 }
 .btn_two{
     top: 69%;
-    background-color: #c269e9;
+    background-color: #A94438;
 }
 .btn_three{
     top: 85%;
-    background-color: #c75ff4;
+    background-color: #1D2B53;
+    font-size: 17px;
+    padding: 4px 20px;
 }
 .btn_four{
     top: 92%;
-    background-color: #c55df1;
+    background-color: #2b6b06;
 }
 .btn_four {
     top: 92%;
-    background-color: #c55df1;
+    background-color: #11c1f1;
     padding: 6px 13px;
     font-size: 15px !important;
 }
@@ -70,16 +72,32 @@ a:hover{
     color: #fff;
     text-decoration: none;
 }
+.whatsapp img{
+    width: 75px;
+}
+.whatsapp{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: -20%;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
     @media only screen and (max-width: 400px) {
-  img{
+  .bg{
       width: 100vw !important;
+    }
+    .whatsapp{
+        left: -70% !important;
   }
 }
 
 </style>
 <body>
     <div>
-        <img loading="lazy" src="img/V24-Potrait 12 Final.jpg" alt="v24bet">
+        <img class="bg" loading="lazy" src="img/V24-Potrait 12 Final.jpg" alt="v24bet">
+        <a class="whatsapp" href="https://wa.link/w0wajv"><img class="whatsapp-img" src="img/WhatsApp_icon.png.webp" alt=""></a>
         <a class="btn_one" href="https://sshortly.net/jI7Nya">Register now</a>
         <a class="btn_two" href="https://v24betcash.com/">Become an Agent </a>
         <a class="btn_three" href="https://affiliates.v24lite-777.top/">Join Affiliate </a>
